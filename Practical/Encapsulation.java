@@ -1,5 +1,6 @@
 package OPPs;
 //Example of Encapsulation
+//Encapsulation allows us to keep our essential data accessibility private and limited through get and set methods through inheritance
 class Encapsulation
 {
 	private String name;
@@ -29,8 +30,8 @@ class Main
 			Encapsulation e=new Encapsulation();
 			
 			//Setting values
-			e.setName("Anju");
-			e.setAge(28);
+			e.setName("Raunak");
+			e.setAge(21);
 			
 			//Print values
 			System.out.println("Name is:" + e.getName());
