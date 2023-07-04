@@ -1,5 +1,6 @@
 package OPPs;
 //printing Employee Details
+//Over here we have created an instance of a class in another class, Using the Employee object we are able to access and set its variables and methods
 public class Employee 
 {
 	
@@ -69,8 +70,8 @@ class employ
 		Employee p =new Employee();
 		
 		//Setting Value
-		p.setName("Rakesh roy");
-		p.setAge(25);
+		p.setName("Raunak Ali");
+		p.setAge(21);
 		p.setEmployeeid(1225);
 		p.setIncentive(2500);
 		p.setSalary(25000);
